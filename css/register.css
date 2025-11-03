@@ -1,0 +1,28 @@
+form{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
+    padding: 30%;
+    border-radius: 30px;
+}
+
+legend{
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=date], input[type=datetime-local], input[type=tel], select{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}

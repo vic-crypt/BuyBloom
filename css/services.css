@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#heading1{
+    color: aquamarine;
+}
+
+.paragraph{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#vip{
+    background-color: azure;
+    display: flex;
+    margin: 80px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#vip img{
+    margin-right: 40px;
+    border-radius: 100px;
+}
+
+#vip:hover{
+    background-color: blue;
+    color: aquamarine;
+}
+
+#shipping{
+    display: flex;
+    margin: 80px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#mydiv{
+    margin-left: 40px;
+}
+
+#shipping img{
+    border-radius: 100px;
+}
+
+#taxi{
+    margin-right: 200px;
+    align-items: center;
+}
+
+#economy{
+    align-items: center;
+    margin-right: 200px;
+}
+#new{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+
+
+
+
