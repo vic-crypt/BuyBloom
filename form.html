@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form/html</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="mb-4 text-center" >Registration</h2>
+        <form action="">
+            <!--email-->
+            <div class="row">
+                <div class="col">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" id="email" class="form-control" placeholder="input email" required>
+                </div>
+                <div class="col">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="input email" required>
+                </div>
+
+                <!---address-->
+                <div class="mb-4 mt-4">
+                    <label for="address" class="form-label">Address</label>
+                    <input type="text" id="address" class="form-control" placeholder="input address" required>
+                    <div class="mb-4 mt-4">
+                    <label for="address2" class="form-label">Address 2</label>
+                    <input type="text" id="address2" class="form-control" placeholder="input address" required>
+                    </div>
+
+                    <!--city-->
+                    <div class="row">
+                <div class="col-6">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" id="city" class="form-control" placeholder="input city" required>
+                </div>
+
+                <div class="col-4">
+                    <label for="state" class="form-label">State</label>
+                    <br>
+                    <select name="" id="state" class="form-select">
+                    <option value="" disabled>--Select--</option>
+                    <option value="">Nairobi</option>
+                    <option value="">Mombasa</option>
+                    <option value="">Kisumu</option>
+                    </select>
+                </div>
+
+                <div class="col-2">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input type="text" id="zip" class="form-control" placeholder="input zip" required>
+                </div>
+
+
+
+
+                </div>
+
+                <!--checkbox-->
+                <div class="form-check mb-4 mt-4">
+                    <input type="checkbox" class="form-check-input" id="check">
+                    <label for="check" class="form-check-label"> Check Me Out</label>
+                </div>
+
+                <!--button-->
+                <button type="submit" class="btn btn-outline-primary"> Sign in</button>
+
+            </div>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
